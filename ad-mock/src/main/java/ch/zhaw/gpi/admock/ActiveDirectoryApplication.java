@@ -1,6 +1,5 @@
-package ch.zhaw.gpi.twitterreviewprocessapplication;
+package ch.zhaw.gpi.admock;
 
-import org.camunda.bpm.spring.boot.starter.annotation.EnableProcessApplication;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -19,8 +18,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * => unter localhost:8080 ist Tomcat erreichbar *
  */
 @SpringBootApplication
-@EnableProcessApplication
-public class TwitterReviewProcessApplication {
+public class ActiveDirectoryApplication {
 
     /**
      * Haupt-Methode, welche beim Run-Befehl eine
@@ -29,6 +27,6 @@ public class TwitterReviewProcessApplication {
      * @param args
      */
     public static void main(String[] args) {
-        SpringApplication.run(TwitterReviewProcessApplication.class, args);
+        SpringApplication.run(ActiveDirectoryApplication.class, args);
     }
 }
